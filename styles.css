@@ -63,3 +63,22 @@ h1 {
 .hero-text-section {
     width: 400px;
 }
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images-section {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+}
+
+.section-two p{
+    text-align: center;
+}
