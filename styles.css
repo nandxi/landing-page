@@ -41,7 +41,7 @@ h1 {
 
 .section-one {
     background-color: #1f2937;
-    padding: 48px
+    padding: 24px 48px;
 }
 
 .hero p {
@@ -66,17 +66,20 @@ h1 {
 
 h2 {
     text-align: center;
-    margin: 20px;
+    margin-bottom: 48px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+}
+
+.section-two {
+    margin: 48px;
 }
 
 .images-section {
     display: flex;
     gap: 24px;
     justify-content: space-evenly;
-    margin-bottom: 24px;
 }
 
 .section-two p{
