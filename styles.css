@@ -112,3 +112,21 @@ h2 {
 .author {
     margin-left: auto;
 }
+
+.section-four {
+    padding: 48px;
+}
+
+.banner {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    border-radius: 6px;
+}
+
+.banner .sign-up {
+    border: 2px solid white;
+    padding: 2px 36px;
+}
