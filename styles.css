@@ -1,10 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
 .nav {
     display: flex;
     list-style-type: none;
     justify-content: center;
     gap: 12px;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.nav li {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .logo {
     margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.section-one {
+    background-color: #1f2937;
+    padding: 48px
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 2px none;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.hero-text-section {
+    width: 400px;
 }
