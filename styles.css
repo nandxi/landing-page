@@ -55,7 +55,7 @@ h1 {
     background-color: #3882f6;
     padding: 8px 16px;
     border-radius: 10px;
-    border: 2px none;
+    border: 2px solid #f9faf8;
     color: #f9faf8;
     font-weight: 700;
     font-size: 12px;
@@ -122,14 +122,9 @@ h2 {
     background-color: #3882f6;
     color: #f9faf8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 24px;
     border-radius: 6px;
-}
-
-.banner .sign-up {
-    border: 2px solid white;
-    padding: 2px 36px;
 }
 
 footer {
